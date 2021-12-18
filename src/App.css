@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+
+input[type='text'],
+input[type='email'],
+textarea, 
+select{
+  display: block;
+  align-items: center;
+  width: 400px;
+  padding: 6px 12px;
+  line-height: 1%;
+  font-size: 14px;
+  color:#555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} 
+.form-control{
+  margin-bottom: 20px;
+}
+.error{
+  color:red;
+}
+/* .form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
